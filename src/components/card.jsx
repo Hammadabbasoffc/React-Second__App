@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 
 
-function card({data , reference}) {
+function card({data , reference}) { 
   return (
     <motion.div drag dragConstraints={reference} whileDrag={{scale: 1.1}} className='w-60 h-72 px-5 py-7 flex-shrink-0 rounded-[30px] bg-zinc-500   text-white relative overflow-hidden'>
         <FaRegFileLines />
